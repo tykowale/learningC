@@ -5,5 +5,4 @@ all:
 	cc -Wall    ex3.c   -o ex3
 
 clean:
-	rm -f ex1
-	rm -f ex3
+	rm -r *.dSYM
