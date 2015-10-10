@@ -1,8 +1,8 @@
 CFLAGS=-Wall -g
 
-all: 
-	cc -Wall    ex1.c   -o ex1
-	cc -Wall    ex3.c   -o ex3
+all: ex19
+
+ex19: object.o
 
 clean:
 	rm -r *.dSYM
